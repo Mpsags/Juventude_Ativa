@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+  
+   
+}
+
+@media(max-width:320px){
+    .parametro,.img{
+        display: flex;
+        min-width: 100%;
+       overflow: hidden;
+       position: relative;
+     
+    }
+
+
+
+}
+
+/* variaveis*/
+
+html{
+--bg-color:#EDF2FF;
+--text-color:#00082F;
+--primary-color:#4263EB;
+--primary-color-dark:#364FC7;
+--primary-color-green:rgb(201, 233, 206);
+
+}
+
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    height: auto;
+   
+    
+  }
+
+  /*body{
+    background-image:url(../BanerRotativo/sala-vazia-de-fundo-abstrato-gradiente-azul-com-espaco-para-seu-texto-e-imagem.jpg);
+    background-repeat: no-repeat;*/ 
+    
+
+    .navil{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+.navil li a {
+    color: #FFFFFF;
+    }
+
+body.dark-blue{
+    --bg-color:#00082F;
+    --text-color:#FFFFFF;
+
+}
+
+body.pink{
+    --bg-color:#f02f7c;
+    --text-color:#1F000B; 
+    --primary-color:#D6336C;
+    --primary-color-dark:#A61E4D;
+}
+
+body.dark-pink{
+    --bg-color:#1F000B;
+    --text-color:#FFFFFF; 
+    --primary-color:#D6336C;
+    --primary-color-dark:#A61E4D;
+
+}
+
+body.dark-greem{
+    --bg-color:#3ebd53;
+    --text-color:#FFFFFF; 
+    --primary-color:#124112;
+    --primary-color-dark:#5ddf7d;
+
+}
+
+.banner2{
+    width:100%;
+    margin-top: -2em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    float: left;
+    justify-content: center;
+    margin-left: 0em;
+    opacity: 0.6;
+    gap: 4%;
+    
+      
+}
+.banner2 img{
+    border-radius: 0;
+    margin-top: 3em;
+    
+}
+
+
+.conteiner{
+text-align: center;
+width: 70% ;
+margin: auto ;
+overflow:hidden;
+
+
+
+}
+.conteiner h1{
+   color: rgb(240, 208, 214);
+}
+
+
+.gif {
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top:0em;
+ 
+ 
+}
+
+.gif img {
+ width: 500px;
+ border-radius: .8em;
+ 
+}
+
+img {
+    width: 100%;
+}
+
+
+.avatar{
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    border: var(--primary-color) solid 4px;
+    padding: 3.7px;
+
+}
+
+h1{
+margin-top:24px ;
+margin-bottom: 8px;
+font-size: 32px;
+
+
+}
+
+.autidor{
+    color: white;
+    background-image: linear-gradient(90deg,#5e2feb 0%,#da632c 70% );
+    padding-top: 4px;
+    border-radius: 10px;
+    margin: auto;
+    width: 76%;
+  
+  
+    
+
+}
+
+
+
+.autidor img{
+    max-width: 20em;
+    max-height:30em;
+    float: left;
+    margin-left:1em auto;
+    padding: 2em;
+
+       
+
+     }
+.autidor h2{
+    margin-right: .6em;
+    line-height: 2em;
+    color: #e8e8e9;
+}
+.autidor h3{
+    text-align: justify;
+    justify-content: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    letter-spacing: .2px;
+    line-height: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+    }
+
+
+
+         .autidor2{
+            color: rgb(230, 218, 218);
+            background-image: linear-gradient(90deg,#518b2a 0%,#195155 70% );
+            padding-top: 4px;
+            border-radius: 10px;
+            margin: auto;
+            width: 76%;
+            margin-bottom: 1em;
+            margin-top: 1em;
+            align-content: center;
+           
+            
+            
+        
+        }
+        .autidor2 h2{
+            margin-right: .6em;
+            line-height: 2em;
+            color: #e8e8e9;
+        }
+        
+        .autidor2 h3{
+            text-align: justify;
+            justify-content: center;
+            margin-left: 1em;
+            margin-right: 1em;
+            letter-spacing: .2px;
+            line-height: 2em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+           
+            }
+        
+            .autidor2 img{
+                max-width: 20em;
+                max-height:30em;
+                float: left;
+                margin-left:1em auto;
+                padding: 2em;
+        
+            }
+            
+
+           .autidor3{
+            color: white;
+            background-image: linear-gradient(90deg,#cc2b6e 0%,#04315a 70% );
+            padding-top: 4px;
+            border-radius: 10px;
+            margin: auto;
+            width: 76%;
+            margin-bottom: 1em;
+            margin-top: 1em;
+            align-content: center;
+             
+                
+            
+            }
+            .autidor3 h2{
+                margin-right: .6em;
+                line-height: 2em;
+                color: #e8e8e9;
+            }
+            
+            .autidor3 h3{
+                text-align: justify;
+                justify-content: center;
+                margin-left: 1em;
+                margin-right: 1em;
+                letter-spacing: .2px;
+                line-height: 2em;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            
+                }
+            
+                .autidor3 img{
+                    max-width: 20em;
+                    max-height:30em;
+                    float: left;
+                    margin-left:1em auto;
+                    padding: 2em;
+            
+                }
+
+           
+                
+
+                .Biblioteca{
+                    color: rgb(230, 218, 218);
+                    background-image: linear-gradient(90deg,#518b2a 0%,#195155 70% );
+                    padding-top: 4px;
+                    border-radius: 10px;
+                    margin: 0 auto;
+                    width: 76%;
+                    margin-left: 4em;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+                    
+                
+                }
+                .Biblioteca h2{
+                    margin-right: .6em;
+                    line-height: 2em;
+                    color: #e8e8e9;
+                }
+                
+                .Biblioteca h3{
+                    text-align: justify;
+                    justify-content: center;
+                    margin-left: 1em;
+                    margin-right: 1em;
+                    letter-spacing: .2px;
+                    line-height: 2em;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+                   
+                    }
+                
+                    .Biblioteca img{
+                        max-width: 20em;
+                        max-height:30em;
+                        float: left;
+                        margin-left:1em auto;
+                        padding: 2em;
+                
+                    }
+                    
+
+.mono {
+    font-family: 'Roboto Mono', monospace;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+ul{
+list-style: none; 
+margin: 48px 0;
+
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li{
+    display:inline-block;
+    width: 20%;
+    border-top: #e8e8e9;
+    
+}
+
+
+ul li a{
+   height: 53px;
+   position:relative;
+    display:flex;
+    align-items:0;
+    padding: 1em;
+    justify-content: center;
+    background: var(--primary-color);
+    color: white;
+    text-transform: uppercase;/* caixa alta*/
+    font-size: .75em;
+    margin-bottom: 16px;
+    border-radius: 6px;
+
+    transition: background 400ms ;
+
+}
+
+ul li a:hover {
+    background:var(--primary-color-dark);
+    width: auto;
+}
+
+.chatpg{
+                text-align: justify;
+                justify-content: center;
+                margin-left: 4em;
+                margin-right: 1em;
+                margin-top: 2em;
+                line-height: 2em;
+                font-family: 'Roboto Mono', monospace;
+}
+.chatpg img{
+    max-width: 15em;
+    max-height: 10em;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.6;
+    transition: opacity 400ms;
+    margin-top: 2em;
+
+   
+}
+
+footer:hover {
+    opacity: 1;
+}
