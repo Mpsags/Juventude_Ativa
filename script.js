@@ -72,7 +72,7 @@ type==="init") {
     index = type === "prev" && index ? index - 1 : index + 1;
 }
 
-player = songs[index];
+player.src = songs[index].src;
 musicName.innerHTML = songs[index].name;
 if (type !== "init") playPause ();
 
