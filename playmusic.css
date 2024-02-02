@@ -20,7 +20,7 @@ font-family: sans-serif;
     height: 20%;
     margin: auto ;
     overflow:hidden;
-
+}
 
 .avatar{
     border-radius: 50%;
@@ -51,7 +51,7 @@ player{
     max-height: 80em;
     margin: 0 10px;
     box-shadow: 1px 1px 10px  rgb(31, 26, 26);
-    border: solid 1px  ;
+    border: solid 1px ;
     padding: 2em;
     border-radius: 5px;
 }
