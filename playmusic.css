@@ -43,7 +43,7 @@ color: #010201;
 
 
 player{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
